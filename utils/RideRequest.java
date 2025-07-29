@@ -1,4 +1,8 @@
-package core;
+package utils;
+
+import models.enums.Vehicle;
+import models.entities.Location;
+import models.entities.Rider;
 
 public class RideRequest {
     private Rider rider;

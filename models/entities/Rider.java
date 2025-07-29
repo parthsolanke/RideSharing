@@ -1,4 +1,6 @@
-package core;
+package models.entities;
+
+import models.enums.Role;
 
 import java.util.*;
 
@@ -9,7 +11,7 @@ public class Rider extends User {
 
     public Rider(String name) {
         super(name, Role.RIDER);
-        this.id = +idCounter;
+        this.id = ++idCounter;
     }
 
     public void updateRideHistory(Driver driver) {

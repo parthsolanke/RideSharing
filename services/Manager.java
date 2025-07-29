@@ -1,4 +1,12 @@
-package core;
+package services;
+
+import engine.FareCalculator;
+import models.enums.Status;
+import models.enums.Vehicle;
+import models.entities.Driver;
+import models.entities.Location;
+import models.entities.Ride;
+import models.entities.Rider;
 
 import java.util.*;
 import java.util.stream.Collectors;

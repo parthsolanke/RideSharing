@@ -1,4 +1,9 @@
-package core;
+package services;
+
+import models.entities.Driver;
+import models.entities.Location;
+import models.entities.Ride;
+import models.entities.Rider;
 
 import java.util.Map;
 

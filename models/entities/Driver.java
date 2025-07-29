@@ -1,4 +1,7 @@
-package core;
+package models.entities;
+
+import models.enums.Role;
+import models.enums.Vehicle;
 
 public class Driver extends User {
     private static int idCounter;

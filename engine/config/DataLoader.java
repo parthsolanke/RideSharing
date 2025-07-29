@@ -1,4 +1,9 @@
-import core.*;
+package engine.config;
+
+import models.enums.Vehicle;
+import models.entities.Driver;
+import models.entities.Location;
+import models.entities.Rider;
 
 import java.util.*;
 

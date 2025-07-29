@@ -182,3 +182,13 @@ Result: Email not provided
 \--- Simulation Complete ---
 
 ```
+
+
+To Do:
+1. Remove rideer wallet check logic from complete ride
+2. Make use of try, catch, throw and wriet custom exceotions
+3. Build logic for user ratings
+4. Output to .txt file
+5. Build logic for drivers accepting rides (TTL for each)
+6. Google amps api to compute distance between source and destination for fare computation and driver matching (extent current logic).
+7. Do estimate time computation for ride completion and for payment compeletion process.

@@ -1,4 +1,9 @@
-import core.*;
+package engine;
+
+import models.entities.Ride;
+import models.entities.Rider;
+import services.Manager;
+import utils.RideRequest;
 
 public class RideRequestProcessor {
 

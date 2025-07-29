@@ -1,4 +1,10 @@
-import core.*;
+package engine;
+
+import models.enums.Vehicle;
+import models.entities.Location;
+import models.entities.Rider;
+import services.Manager;
+import utils.RideRequest;
 
 import java.util.List;
 import java.util.Random;

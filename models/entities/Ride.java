@@ -1,4 +1,6 @@
-package core;
+package models.entities;
+
+import models.enums.Status;
 
 public class Ride {
     private final int id;

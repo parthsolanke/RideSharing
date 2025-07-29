@@ -1,4 +1,6 @@
-package core;
+package models.entities;
+
+import models.enums.Role;
 
 abstract public class User {
     private String name;
@@ -12,18 +14,6 @@ abstract public class User {
 
     public String getName() {
         return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public Role getRole() {
-        return role;
-    }
-
-    public void setRole(Role role) {
-        this.role = role;
     }
 
     public double getWalletBalance() {

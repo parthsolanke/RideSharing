@@ -1,4 +1,9 @@
-package core;
+package engine;
+
+import models.entities.Location;
+import models.entities.Ride;
+import models.enums.Vehicle;
+
 public class FareCalculator {
 
     public final static double DISTANCE_SURCHARGE_FOR_FAR = 50.0;
