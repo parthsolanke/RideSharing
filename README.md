@@ -189,6 +189,6 @@ To Do:
 2. Make use of try, catch, throw and wriet custom exceotions
 3. Build logic for user ratings
 4. Output to .txt file
-5. Build logic for drivers accepting rides (TTL for each)
+5. Build logic for drivers accepting rides (TTL for each) (Highest rated drivers gets prefered)
 6. Google amps api to compute distance between source and destination for fare computation and driver matching (extent current logic).
 7. Do estimate time computation for ride completion and for payment compeletion process.
